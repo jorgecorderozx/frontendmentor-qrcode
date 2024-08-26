@@ -27,25 +27,26 @@ main > div {
     flex-direction: column;
     margin: 1rem;
     padding: 1rem;
-    width: 300px;
+    width: 320px;
+    height: 499px;
+    padding: 16px 16px 40px 16px;
+    box-shadow: 0 16px hsl(212, 45%, 87%)
 }
 
 img{
     width: 100%;
+    margin-bottom: 0.5rem;
 }
 
 div, img {
-    border-radius: 1rem;
+    border-radius: 0.7rem;
 }
 
 h1 {
     font-size: 20px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-}
-
-img, h1 {
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 
 .text-container{
